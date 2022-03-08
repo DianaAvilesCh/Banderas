@@ -33,19 +33,20 @@
         android:id="@+id/txtPais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
         android:text="Pais"
         android:textSize="21dp"
         app:layout_constraintLeft_toLeftOf="@+id/btnCapture"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="83dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txtInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="20dp"
         android:text="Info"
         android:textSize="21dp"
         app:layout_constraintStart_toStartOf="parent"
